@@ -1,0 +1,12 @@
+<center>
+  <h1>PS-P1</h1>
+  <textarea rows="20" cols="100" id="texto" class="textarea"> </textarea>
+  <br>
+  <input type="file" id="fileinput" onChange={{action "metodo_leerArchivo"}}/>
+  <br>
+  <br>
+  <input type="button" id="mediInput" value="Calcular Medias" onclick={{action "metodo_calcularMedia"}}>
+  <input type="button" id="desvInput" value="Calcular Desviaciones Estandar" onclick={{action "metodo_calcularDesviacion"}}>
+  <h1 id="resultadoMedi"></h1>
+  <h1 id="resultadoDesv"></h1>
+</center>
